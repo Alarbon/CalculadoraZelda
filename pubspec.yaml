@@ -1,0 +1,26 @@
+name: calculadora_responsive
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  audioplayers: ^5.2.1
+  eval_ex: ^1.1.8
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^10.6.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/songs/
